@@ -57,8 +57,12 @@ body{
     cursor: pointer;
 }
 
+.main{
+    width: 100%;
+}
+
 .main-image {
-    max-width: 100%;
+    width: 100%;
     box-sizing: border-box;
     background: linear-gradient(
       180deg,
@@ -82,7 +86,7 @@ body{
     /* z-index: 100; */
     top:20%;
     left:10%;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 40%;
 }
 
@@ -98,7 +102,7 @@ letter-spacing: 0.09em;
     /* z-index: 100; */
     top:55%;
     left:10.5%;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 30%;
     height:30%
 }
